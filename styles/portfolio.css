@@ -1,4 +1,44 @@
 :root {
   --heading-font-family: "Merriweather", serif;
   --default-font-family: font-family: 'Roboto Flex', sans-serif;
+  --main-color: #ffe9f3;
+  --secondary-color: #fcf7f9;
+  --darker-color: #ffbedd;
+}
+
+body {
+    background: var(--main-color);
+}
+.hero {
+    background-color: var(--secondary-color);
+    text-align: center;
+    padding: 80px 20px;
+}
+
+.hero h1 {
+    font-family: var(--heading-font-family);
+    font-style: italic;
+    font-weight: bold;
+    font-size: 80px;
+}
+
+.hero h2 {
+    margin: 0;
+}
+
+.btn-branding{
+    background: var(--darker-color);
+    border-radius: 4px;
+    color: var(--secondary-color);
+    font-size: 18px;
+    line-height: 27px;
+    padding: 12px 20px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: var(--heading-font-family);
+}
+
+p {
+    font-family: var(--default-font-family);
 }
