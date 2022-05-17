@@ -48,3 +48,11 @@ p {
   font-family: var(--default-font-family);
   font-size: 20px;
 }
+
+.projects-preview {
+  text-align: center;
+}
+
+.projects-preview h2 {
+  color: #dc786d;
+}
